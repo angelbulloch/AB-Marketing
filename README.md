@@ -15,8 +15,10 @@ Files:
 1. **Company name** — set to "True Imperium." Find/replace it across
    `index.html` if that changes.
 2. **Apply button link** — in `index.html`, the `#apply` section points to
-   `mailto:careers@trueimperium.com`. Confirm that inbox actually exists and
-   is monitored, or swap the `href` for a real ATS/job board link (Indeed,
+   `mailto:trueimperiumcareers@gmail.com`. Make sure that Gmail inbox exists
+   and is monitored. Once a `careers@trueimperium.com` domain email is set
+   up (see Google Workspace or free forwarding from your domain registrar),
+   swap the `href` to that, or to a real ATS/job board link (Indeed,
    LinkedIn Jobs, Greenhouse, Workable, a Google/Typeform form, etc.).
 3. **Compensation details** — search `EDIT ME` in the "How You're Paid"
    section and replace the placeholder note with your actual base pay,
