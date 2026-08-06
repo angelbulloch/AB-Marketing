@@ -12,13 +12,12 @@ Files:
 
 ## Before you publish this as a live ad, edit these placeholders
 
-1. **Company name** — currently "Ignite Sales Co." (invented placeholder).
-   Find/replace it across `index.html` if you want a different name.
-2. **Apply button link** — in `index.html`, search for `EDIT ME` in the
-   `#apply` section. It currently points to a `mailto:careers@ignitesales.example`
-   address. Replace the `href` with your real application link (Indeed,
-   LinkedIn Jobs, Greenhouse, Workable, a Google/Typeform form, etc.) or a
-   real email address.
+1. **Company name** — set to "True Imperium." Find/replace it across
+   `index.html` if that changes.
+2. **Apply button link** — in `index.html`, the `#apply` section points to
+   `mailto:careers@trueimperium.com`. Confirm that inbox actually exists and
+   is monitored, or swap the `href` for a real ATS/job board link (Indeed,
+   LinkedIn Jobs, Greenhouse, Workable, a Google/Typeform form, etc.).
 3. **Compensation details** — search `EDIT ME` in the "How You're Paid"
    section and replace the placeholder note with your actual base pay,
    commission structure, and pay cycle. Avoid vague/unverifiable income
