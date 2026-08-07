@@ -71,16 +71,6 @@ h3 {
   max-width: 640px;
 }
 
-.muted-note {
-  margin-top: 14px;
-  font-size: 0.85rem;
-  color: rgba(255, 91, 61, 0.85);
-  border: 1px dashed rgba(255, 91, 61, 0.4);
-  padding: 10px 14px;
-  border-radius: 8px;
-  display: inline-block;
-}
-
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.16em;
@@ -292,40 +282,33 @@ h3 {
   gap: 18px;
 }
 
-.pay-bar {
-  background: rgba(255, 255, 255, 0.06);
-  border-radius: 999px;
-  height: 46px;
-  overflow: hidden;
-  border: 1px solid var(--card-border);
-}
-
-.pay-bar-fill {
-  height: 100%;
-  width: var(--fill);
-  border-radius: 999px;
+.pay-highlight {
   display: flex;
-  align-items: center;
-  padding: 0 16px;
-  font-weight: 700;
-  font-size: 0.85rem;
-  color: #0a0e17;
-  background: linear-gradient(90deg, rgba(200,255,61,0.9), rgba(200,255,61,0.6));
+  align-items: flex-start;
+  gap: 16px;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  padding: 22px;
+  transition: border-color 0.2s ease;
 }
 
-.pay-bar-uncapped .pay-bar-fill {
-  background: var(--gradient);
-  animation: pulseGrow 2.4s ease-in-out infinite;
+.pay-highlight:hover {
+  border-color: rgba(200, 255, 61, 0.35);
 }
 
-@keyframes pulseGrow {
-  0%, 100% { filter: brightness(1); }
-  50% { filter: brightness(1.15); }
+.pay-highlight-icon {
+  font-size: 1.7rem;
+  line-height: 1;
 }
 
-.pay-visual-note {
-  font-size: 0.8rem;
+.pay-highlight h3 {
+  margin-bottom: 4px;
+}
+
+.pay-highlight p {
   color: var(--text-muted);
+  font-size: 0.92rem;
 }
 
 /* ---------- Timeline ---------- */
