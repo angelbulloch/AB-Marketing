@@ -405,6 +405,11 @@ h3 {
   font-size: 1.05rem;
 }
 
+.cta-checklist {
+  font-size: 0.9rem !important;
+  margin: 0 0 28px !important;
+}
+
 .cta-subnote {
   margin-top: 16px;
   font-size: 0.8rem;
